@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+header{
+    background: #d41935;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+color: white;
+font-weight: normal;
+margin: 0;
+text-transform: uppercase;
+}
+
+h3{
+    margin: 10px 0 0 0;
+}
+
+nav{
+background: #d75569;
+}
+
+nav a{
+    background: #df324c;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+nav a span{
+    margin-right:5px;
+}
+
+nav a:hover{
+    background: #d75569;
+}
+
+main{
+    display: flex;
+}
+
+article, aside{
+    padding: 10px;
+}
+
+article{
+    flex: 2;
+    background: #eee;
+    color: #ac152b ;
+}
+
+.ninja{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article span{
+    border: 1px solid #d41935;
+    border-radius:3px ;
+    padding: 3px;
+}
+aside{
+    flex: 1;
+    color: #ac152b;
+}
+
+footer{
+    display: flex;
+    background: #d41935;
+    padding: 10px;
+}
+
+section{
+    flex: 1;
+}
+
+h4{
+    color: white;
+}
+
+.win{
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+}
+
+#hollow{
+    background: url('images/hollow.jpg');
+    background-size:cover;
+    padding: 80px 8px 8px 8px;
+    margin-bottom: 10px;
+}
+
+#hollow section{
+    background: rgba(0,0,0,.3);
+    padding: 2px;
+    color: white;
+}
+
+#silk{
+    background: url(images/silk.jpg) ;
+    background-size: cover;
+    padding: 80px 8px 8px 8px ;
+    margin-top: 10px;
+}
+
+#silk section{
+    background: rgba(0,0,0,.3);
+    padding: 2px;
+    color: white;
+    font-style: italic ;
+}
+
+body{
+    background: url(bg.jpg);
+}

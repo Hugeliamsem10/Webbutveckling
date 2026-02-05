@@ -1,0 +1,16 @@
+img{
+    height: 400px;
+    width: 470px;
+    margin: auto;
+}
+section{
+margin: 20px;
+    
+}
+
+@media (min-width: 700px) {
+   article{
+    display: flex;
+   }
+    
+}

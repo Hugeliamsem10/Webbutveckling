@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+header,nav,main,footer{
+    border: 2px solid darkred;
+    margin: 10px;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+        "Woomp Woomp"
+        "ball zack"
+        "woomp woomp "
+    ;
+}
+
+header{grid-area: Woomp;}
+
+nav{grid-area: ball;}
+
+main{grid-area: zack;}
+
+footer{grid-area: woomp;}

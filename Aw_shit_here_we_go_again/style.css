@@ -1,0 +1,27 @@
+@charset "UFT-8";
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: url(images/Hero-Mobile.png);
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    padding: 2px;
+    border: 4px white;
+    background: white;
+    color: red;
+
+}
+
+p{
+  padding: 2px;
+  background-color: white;
+  color: green;
+}

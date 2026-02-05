@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: url(images/Min_red.jpg.png);
+    padding: 170px;
+    background-size: cover;
+}
+
+nav a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    background-color:#e21f1b;
+    color:rgb(208, 205, 205);
+}
+
+nav{
+    background-color: #e21f1b;
+}
+
+nav a:hover{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    background-color:#c21526;
+    color: white;
+}
+
+main{
+    padding: 10px;
+}
+
+h1{
+    font: 30px;
+    font-weight: bold;
+    color: #e21f1b;
+}
+#min{
+    width: 20%;
+}
+
+footer{
+    background-color: #e21f1b;
+    padding: 25px;
+    color: white;
+}
+
+div p{
+    font-size: 25px;
+    font-weight:bold ;
+    color: #e3182d;
+}

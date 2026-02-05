@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+header{
+    background: url(images/scoops.jpg);
+    padding: 100px;
+    background-size: cover;
+}
+
+nav a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+    background-color: aqua;
+    color: white;
+}
+nav{
+    background-color: aqua;
+}
+nav a:hover{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+    background-color:red;
+    color: black;
+}
+
+main{
+    padding-left: 10px;
+    font-family: "Comic Sans MS";
+}
+h1{
+    font: 30px;
+    font-weight: bold;
+    color: aqua;
+}
+
+#ice{
+    width: 20%;
+}
+
+

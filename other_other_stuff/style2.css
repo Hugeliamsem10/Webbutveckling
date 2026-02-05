@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+section{
+    color: white;
+    padding: 10px;
+    background-color: hotpink;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}

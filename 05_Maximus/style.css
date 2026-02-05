@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+header{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+color: #fc3;
+font-weight: normal;
+margin: 0;
+text-transform: uppercase;
+}
+
+h3{
+    margin: 10px 0 0 0;
+}
+
+nav{
+background: #555;
+}
+
+nav a{
+    background: #444;
+    color: #fc3;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+nav a span{
+    margin-right:5px;
+}
+
+nav a:hover{
+    background: #555;
+}
+
+main{
+    display: flex;
+}
+
+article, aside{
+    padding: 10px;
+}
+
+article{
+    flex: 2;
+    background: #eee;
+}
+
+.ninja{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article span{
+    border: 1px solid #fc3;
+    border-radius:3px ;
+    padding: 3px;
+}
+aside{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    background: #333;
+    padding: 30px;
+}
+
+section{
+    flex: 1;
+}
+
+h4{
+    color: #fc3;
+}
+
+.win{
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+}
+
+#venedig{
+    background: url('images/venedig.jpg');
+    background-size:cover;
+    padding: 80px 8px 8px 8px;
+    margin-bottom: 10px;
+}
+
+#venedig section{
+    background: rgba(0,0,0,.3);
+    padding: 2px;
+    color: white;
+}
+
+#sangimignano{
+    background: url(images/sangimignano.jpg) ;
+    background-size: cover;
+    padding: 80px 8px 8px 8px ;
+    margin-top: 10px;
+}
+
+#sangimignano section{
+    background: rgba(0,0,0,.3);
+    padding: 2px;
+    color: white;
+    
+}

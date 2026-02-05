@@ -1,0 +1,13 @@
+article {
+   display: flex;
+   
+}
+
+section{
+    flex: 1;
+    color: white;
+    padding:10px  ;
+    margin: 10px;
+    background-color:hotpink ;
+    border-radius:10px ;
+}

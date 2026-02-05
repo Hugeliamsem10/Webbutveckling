@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display:grid;
+        grid-template-columns: 1fr 2.5fr 0.5fr 1fr ;
+        grid-template-areas: 
+        "a a b b"
+        "c d d e ";
+    }
+    section{
+        height: 50vh;
+        background-size: 100% cover;
+        color: white;
+        margin: 2px;
+    }
+#heat{
+    grid-area: a;
+    background-size: cover;
+    background-image: url(images/heat.jpg);
+}
+
+#sus{
+    grid-area: b;
+    background-size: cover;
+    background-image: url(images/usualsuspects.jpg);
+}
+
+#inman{
+    grid-area: c;
+    background-size: cover;
+    background-image: url(images/insideman.jpg);
+}
+
+#rifi{
+    grid-area: d;
+    background-size: cover;
+    background-image: url(images/rififi.jpg);
+}
+
+#bj{
+    grid-area: e;
+    background-size: cover;
+    background-image: url(images/bankjob.jpg);
+}
+
+</style>
+<body>
+    <section id="heat">
+        <p>HEAT</p>
+    </section>
+    <section id="sus">
+        <p>The Usual Suspects</p>
+    </section>
+    <section id="inman">
+        <p>Inside Man</p>
+    </section>
+    <section id="rifi">
+        <p>Rififi</p>
+    </section>
+    <section id="bj">
+        <p>The Bankjob</p>
+    </section>
+</body>
+</html>
