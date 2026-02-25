@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root{
+    font-size: 16px;
+--bg-light: #b2c8cf;
+--bg-dark: rgb(5, 5, 42);
+--link: orange;
+}
+
+body{
+    background: var(--bg-light);
+   
+}
+
+nav{
+   position: fixed;
+    background: var(--bg-dark);
+    display: flex;
+    color: white;
+    margin: 0;
+    display: inline block;
+}
+
+
+a{
+    display: inline block;
+    color: var(--link);
+}
+
+section{
+    margin: auto 0 auto 15px;
+    background: var(--bg-dark);
+}
+
+
+
+
+
